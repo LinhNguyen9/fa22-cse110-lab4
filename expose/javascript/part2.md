@@ -9,29 +9,29 @@
 9. At line 11, the code causes an error because "let" only lets you use the variables and the function within the scope of the function. Thus, the code returns error.
 10. At line 12, the function printed out "3" which the length of the array.
 11. The function will return a "discounted" array where it stores the discountedPriced but nothing will appear on the console.
-12. tbc
-    A.console.log(student.name)
-    B.console.log(student.major)
-    C.
-    D.
-    E.
-13. btc
-    A.
-    B.
-    C.
-    D.
-    E.
-    F.
-    G.
-    H.
+12. 
+    A. student.name;
+    B. student.major['Grad Year'];
+    C. student.greeting();
+    D. student['Favorite Teacher'].name;
+    E. student.courseLoad[0];
+13. 
+    A. '32' - since integers map to their exact string representation
+    B. 1 - since Javascript is able to detect data type so it does a algebra subtraction on 2 integers.
+    C. 3 - because Javascript consider null as 0
+    D. '3null' - because Javascript detects "3" as a string so that it also detect "null" as a string as well, thus, it concatinated the 2 strings together
+    E. 4 - since true maps to 1
+    F. 0 - since false maps to 0 and null is also considered as 0
+    G. '3undefined' - because Javascript detects "3" as a string so that it also detects "undefined" as a string as well, thus, it concatinated the 2 strings together.
+    H. NaN - When a number is undefined, it takes everything else with it. It can’t be used in an equation or formula
 14. TBC
-    A.
-    B.
-    C.
-    D.
-    E.
-    F.
-15. TBC
+    A. true - because Javascript converts string '2' to integer
+    B. false - when compare 2 strings, Javascript compares them in lexicographical order, that's why it returns false
+    C. true - because Javascript converts string '2' to integer
+    D. false - because strict equality operator checks the equality without type conversion and an integer is different from a string. Thus, it returns false.
+    E. false - Javascript convert true to 1 as an integer and 1 is smaller than 2. Thus, it returns false
+    F. true - because boolean of 2 will return true, and true is equal to true
+15. The == operator does the data type conversion of the operands before comparison, and the === operator compares the values as well as the data types of the operands
 16. TBC
 17. TBC
 18. TBC
