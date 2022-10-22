@@ -1,1 +1,1 @@
-first
+console.log(i.charAt(0));
