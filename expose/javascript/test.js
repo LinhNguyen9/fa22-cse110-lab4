@@ -1,17 +1,17 @@
-// function sumValues(num1, num2, add){
+function sumValues(num1, num2, add){
 
-//     if(add){
+    if(add){
 
-//         const result = 0;
+        let result = 0;
 
-//         result = num1 + num2;
+        result = num1 + num2;
 
-//         console.log('values added: ', result);
+        console.log('values added: ', result);
 
-//     } else return;
+    } else return;
 
-//     console.log('final result: ', result);
-// }
+    console.log('final result: ', result);
+}
 
 // sumValues(10, 10, true);
 
@@ -30,11 +30,11 @@
 
 // modifyArray([1,2,3], doSomething);
 
-function printNums(){
-    console.log(1);
-    setTimeout(function() { console.log(2); }, 1000);
-    setTimeout(function() { console.log(3); }, 0);
-    console.log(4);
-}
+// function printNums(){
+//     console.log(1);
+//     setTimeout(function() { console.log(2); }, 1000);
+//     setTimeout(function() { console.log(3); }, 0);
+//     console.log(4);
+// }
 
-printNums();
+// printNums();
