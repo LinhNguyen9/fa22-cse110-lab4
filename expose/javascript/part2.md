@@ -32,7 +32,11 @@
     E. false - Javascript convert true to 1 as an integer and 1 is smaller than 2. Thus, it returns false
     F. true - because boolean of 2 will return true, and true is equal to true
 15. The == operator does the data type conversion of the operands before comparison, and the === operator compares the values as well as the data types of the operands
-16. TBC
-17. TBC
-18. TBC
-19. TBC
+16. part2-question16.js file
+17. The modifyArray([1,2,3], doSomething) returned [2, 4, 6]. The modifyArray([1,2,3], doSomething) take in an array of [1, 2, 3] and a doSomething function which multiply the value of the array by 2.
+18. part2-question18.js
+19. The output of the code is:
+1
+4
+3
+2
