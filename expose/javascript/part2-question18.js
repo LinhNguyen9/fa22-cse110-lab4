@@ -1,7 +1,3 @@
-// let d = new Date();
-// let time = d.toLocaleTimeString();
-// console.log(time);
-
 function task(){
     let d = new Date();
     let time = d.toLocaleTimeString();
